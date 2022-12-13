@@ -1,0 +1,60 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	font-weight: 500;
+	color: #252b42;
+	font-family: Montserrat;
+}
+/*Обертка общая*/
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+/*Технический класс контейнера*/
+._container{
+	max-width: 1046px;
+	margin: 0 auto;
+}
+/*Верхня часть - меню*/
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.header__container {
+	display: flex;
+	min-height: 104px;
+	align-items: center;
+
+}
+
+.header__logo {text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	color: inherit;
+
+}
+.header__menu {margin: 0 0 0 132px;
+}
+.menu {
+}
+.menu__list {display: flex;
+	list-style-type: none;
+}
+.menu__item {
+}
+.menu__item:not(:last-child){margin: 0 21px 0 0;}
+.menu__link {text-decoration: none;
+	color: #737373;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 171%;
+}
